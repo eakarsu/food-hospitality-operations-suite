@@ -10,6 +10,59 @@ export type SourceAIToolField = {
 };
 
 export const sourceAIToolFieldsByToolId: Record<string, SourceAIToolField[]> = {
+  "recipe-menu-planning-copilot": [
+    {
+      "name": "objective",
+      "label": "Objective",
+      "type": "textarea",
+      "defaultValue": "Improve the Recipe Menu Planning workflow and produce a decision-ready output.",
+      "placeholder": "Describe the goal, customer, case, or decision needed",
+      "options": [],
+      "required": true,
+      "source": "AiRecipeMealPlanner, AIMenuDigitizer"
+    },
+    {
+      "name": "source_context",
+      "label": "Source Context",
+      "type": "textarea",
+      "defaultValue": "Paste notes, records, documents, metrics, transcript text, or source details for Recipe Menu Planning.",
+      "placeholder": "Paste the source context to analyze",
+      "options": [],
+      "required": true,
+      "source": "AiRecipeMealPlanner, AIMenuDigitizer"
+    },
+    {
+      "name": "workflow_focus",
+      "label": "Workflow Focus",
+      "type": "select",
+      "defaultValue": "Recipe Builder",
+      "placeholder": "Select the workflow",
+      "options": [
+        "Recipe Builder",
+        "Menu Digitization",
+        "Food Costing",
+        "Nutrition & Allergen Review"
+      ],
+      "required": true,
+      "source": "AiRecipeMealPlanner, AIMenuDigitizer"
+    },
+    {
+      "name": "output_format",
+      "label": "Output Format",
+      "type": "select",
+      "defaultValue": "Professional action plan",
+      "placeholder": "Select output format",
+      "options": [
+        "Professional action plan",
+        "Evidence table",
+        "Risk review",
+        "Checklist",
+        "Executive summary"
+      ],
+      "required": true,
+      "source": "AiRecipeMealPlanner, AIMenuDigitizer"
+    }
+  ],
   "ai-food-flow-order-ai-ylyuov-exact-ai": [
     {
       "name": "context",

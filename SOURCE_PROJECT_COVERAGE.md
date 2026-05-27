@@ -14,3 +14,4 @@
 | cateringService | 0 | 0 | 0 | 13 | frontend/tailwind.config<br>frontend/src/main<br>frontend/src/pages/AIAssistant<br>frontend/src/pages/AIInsights<br>frontend/src/pages/EventDetail |
 | foodTruck | 0 | 0 | 1 | 20 | backend/src/services/openrouter<br>frontend/tailwind.config<br>frontend/src/main<br>frontend/src/pages/AI<br>frontend/src/pages/AIAdvanced |
 | independentRestaurant | 0 | 0 | 0 | 28 | tailwind.config<br>src/lib/ai-helpers<br>src/lib/email<br>src/app/api/waitlist/route<br>src/app/api/waitlist/[id]/route |
+| AiRecipeMealPlanner | 0 | 0 | 0 | 1 | Recipe Builder<br>Menu Digitization<br>Food Costing<br>Nutrition & Allergen Review |

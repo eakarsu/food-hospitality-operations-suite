@@ -7,6 +7,10 @@ Primary routes:
 - `/profiles`
 
 Feature routes:
+- `/nutrition-allergen-review`
+- `/food-costing`
+- `/menu-digitization`
+- `/recipe-builder`
 - `/locations`
 - `/menus`
 - `/orders`

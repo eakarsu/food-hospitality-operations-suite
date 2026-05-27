@@ -10,6 +10,23 @@ export type SourceDashboardAction = {
 
 export const sourceDashboardActions: SourceDashboardAction[] = [
   {
+    "id": "recipe-menu-planning",
+    "label": "Recipe Menu Planning",
+    "description": "Open Recipe Menu Planning workflows elevated from AiRecipeMealPlanner, AIMenuDigitizer.",
+    "href": "/recipe-builder",
+    "sourceProjects": [
+      "AiRecipeMealPlanner",
+      "AIMenuDigitizer"
+    ],
+    "examples": [
+      "Recipe Builder",
+      "Menu Digitization",
+      "Food Costing",
+      "Nutrition & Allergen Review"
+    ],
+    "count": 2
+  },
+  {
     "id": "ai-assistant",
     "label": "AI Assistant",
     "description": "Run source-derived AI assistant workflows and prompts.",

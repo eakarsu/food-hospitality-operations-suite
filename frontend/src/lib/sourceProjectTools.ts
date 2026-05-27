@@ -1,5 +1,20 @@
 export const sourceProjectTools = [
   {
+    "id": "recipe-menu-planning-copilot",
+    "title": "Recipe Menu Planning Copilot",
+    "category": "Recipe Menu Planning",
+    "description": "Source-derived AI tool for Recipe Menu Planning inside the current merged suite.",
+    "defaultPrompt": "Review the Recipe Menu Planning context. Return a professional summary, evidence table, risks, missing information, recommended actions, owner assignments, and audit-ready output.",
+    "inputLabel": "Recipe Menu Planning context",
+    "outputLabel": "Recipe Menu Planning AI response",
+    "signals": [
+      "Recipe Builder",
+      "Menu Digitization",
+      "Food Costing",
+      "Nutrition & Allergen Review"
+    ]
+  },
+  {
     "id": "ai-food-flow-order-source-workflow",
     "title": "AI Food Flow Order Source Workflow",
     "category": "Source Project Coverage",

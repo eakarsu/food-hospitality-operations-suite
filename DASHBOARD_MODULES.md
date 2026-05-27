@@ -8,3 +8,5 @@
 - Inventory operating view
 - Staffing operating view
 - Vendors operating view
+
+- Recipe Menu Planning operating view
